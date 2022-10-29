@@ -99,7 +99,7 @@ function updateData(data) {
         devFollowers.textContent =`${data.followers}`
     }
     
-    devLocation.textContent = `${data.location}`
+    devLocation.textContent = `${data.blog}`
     devWebsite.textContent = `${data.email}`
     devTwitter.textContent = `${data.twitter_username}`
     devCompany.textContent = `${data.id}`
